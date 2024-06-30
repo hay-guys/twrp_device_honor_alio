@@ -13,11 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# SPDX-License-Identifier: Apache-2.0
+#
+
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_magic.mk
+    $(LOCAL_DIR)/twrp_magic.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_magic-user \
-    lineage_magic-userdebug \
-    lineage_magic-eng
+    twrp_magic-user \
+    twrp_magic-userdebug \
+    twrp_magic-eng
