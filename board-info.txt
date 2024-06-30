@@ -1,0 +1,3 @@
+require version-trustzone=TZ.XF.5.18-22970-9
+require version-vendor=1717850875
+require board=magic|ali-n21
