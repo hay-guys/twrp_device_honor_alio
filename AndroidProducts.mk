@@ -16,6 +16,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+LOCAL_PATH := device/honor/magic
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_magic.mk
