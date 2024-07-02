@@ -1,5 +1,7 @@
 #!/sbin/sh
 
+chmod a+x permissive.sh
+
 setenforce 0
 
 # Get your device's block path where "system", "recovery", etc. lives.
