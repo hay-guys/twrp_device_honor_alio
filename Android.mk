@@ -1,9 +1,8 @@
-```makefile
-# Replace ${_CODENAME_} with your Device CodeName.
-# Replace ${_VENDORNAME_} with your Brand/Vendor/Manufacture.
+```
+makefile
 
-ifneq ($(filter ALI-NX1,$(TARGET_DEVICE)),)
-LOCAL_PATH := device/honor/ALI-NX1
+ifneq ($(filter alio,$(TARGET_DEVICE)),)
+LOCAL_PATH := device/honor/alio
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
 ```
