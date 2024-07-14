@@ -1,4 +1,3 @@
-#
 # Copyright 2014 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,14 +13,16 @@
 # limitations under the License.
 #
 # SPDX-License-Identifier: Apache-2.0
-#
 
-LOCAL_PATH := device/honor/magic
+```
+makefile
+LOCAL_PATH := device/honor/alio
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_magic.mk
+    $(LOCAL_DIR)/twrp_alio.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_magic-user \
-    twrp_magic-userdebug \
-    twrp_magic-eng
+    twrp_alio-user \
+    twrp_alio-userdebug \
+    twrp_alio-eng
+```
