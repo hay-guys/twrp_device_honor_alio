@@ -21,4 +21,7 @@ Camera                  | 108 MP (wide), 2 MP (macro), 5 MP (ultrawide), 16 MP (
 
 ## Device picture
 
-[![Honor X9b 5G](https://fdn2.gsmarena.com/vv/pics/honor/honor-x9b-2.jpg)
+[Honor X9b 5G](https://fdn2.gsmarena.com/vv/pics/honor/honor-x9b-2.jpg)
+
+
+
