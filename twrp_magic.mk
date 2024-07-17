@@ -4,9 +4,10 @@
 # Copyright (C) 2021-2024 The OrangeFox Recovery Project
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
-
+```
+makefile 
 # Release name
-PRODUCT_RELEASE_NAME := magic
+PRODUCT_RELEASE_NAME := alio
 
 DEVICE_PATH := device/honor/$(PRODUCT_RELEASE_NAME)
 
@@ -24,8 +25,9 @@ PRODUCT_NAME := twrp_$(PRODUCT_RELEASE_NAME)
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_BRAND := HONOR
 PRODUCT_MANUFACTURER := Honor
-PRODUCT_MODEL := HONOR MAGIC 6 LITE 
+PRODUCT_MODEL := HONOR X9B 5G 
 
 PRODUCT_GMS_CLIENTID_BASE := android-honor
-#
+```
+
 
