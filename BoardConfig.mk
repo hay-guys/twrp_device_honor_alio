@@ -6,7 +6,7 @@
 #
 
 
-DEVICE_PATH := device/honor/magic
+DEVICE_PATH := device/honor/alio
 
 # A/B
 AB_OTA_UPDATER := true
