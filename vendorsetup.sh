@@ -19,7 +19,7 @@
 #
 
 #set -o xtrace
-FDEVICE="magic"
+FDEVICE="alio"
 THIS_DEVICE=${BASH_ARGV[2]}
 
 fox_get_target_device() {
@@ -32,7 +32,7 @@ local chkdev=$(echo "$BASH_SOURCE" | grep -w \"$FDEVICE\")
    fi
 }
 
-if [ "$THIS_DEVICE" = "magic" -o "$THIS_DEVICE" = "hnali-q" ]; then
+if [ "$THIS_DEVICE" = "alio" -o "$THIS_DEVICE" = "hnali-q" ]; then
 	FDEVICE="$THIS_DEVICE"
 	[ -z "$FOX_BUILD_DEVICE" ] && FOX_BUILD_DEVICE="$THIS_DEVICE"
 fi
@@ -62,7 +62,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_USE_NANO_EDITOR=1
     	export FOX_DELETE_AROMAFM=1
     	export FOX_BUGGED_AOSP_ARB_WORKAROUND="1616300800"; # Sun 21 Mar 04:26:40 GMT 2021
-    	export TARGET_DEVICE_ALT="aliothin"
+    	export TARGET_DEVICE_ALT="hnali-q"
 
 	# instruct magiskboot v24+ to always patch the vbmeta header when patching the recovery/boot image; do *not* remove!
         export FOX_PATCH_VBMETA_FLAG="1"
