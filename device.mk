@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 # Our various search paths for Soong namespaces
-MAGIC_SOONG_PATHS := device/honor/magic #device/honor/sm6450 # device/honor/hnali-q device/honor/ali-n21
+MAGIC_SOONG_PATHS := device/honor/alio #device/honor/magic # device/honor/hnali-q device/honor/ali-n21
 
 # Configure base.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
