@@ -15,7 +15,7 @@ DEVICE_PATH := device/honor/$(PRODUCT_RELEASE_NAME)
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Inherit any OrangeFox-specific settings
-$(call inherit-product-if-exists, $(DEVICE_PATH)/fox_magic.mk)
+$(call inherit-product-if-exists, $(DEVICE_PATH)/device.mk)
 
 # Inherit some common twrp stuff
 $(call inherit-product, vendor/twrp/config/common.mk)
