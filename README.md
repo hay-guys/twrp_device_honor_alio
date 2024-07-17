@@ -1,6 +1,5 @@
 #
 ## Honor X9B 5G / Honor X50 / Honor Magic 6 Lite 5G (_alio_)
-## LINEAGE device tree
 ## device_honor_alio-recovery
 
 ## Device specifications
