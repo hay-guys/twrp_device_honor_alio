@@ -1,9 +1,9 @@
+
 //
-// Copyright (C) 2024 The LineageOS Project
-//
-// SPDX-License-Identifier: Apache-2.0
-//
+```
+makefile 
 
 soong_namespace {
     imports: ["hardware/qcom/bootctrl"],
 }
+```
