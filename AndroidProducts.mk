@@ -19,10 +19,10 @@ makefile
 LOCAL_PATH := device/honor/alio
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_alio.mk
+    $(LOCAL_DIR)/honor_alio.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_alio-user \
-    twrp_alio-userdebug \
-    twrp_alio-eng
+    honor_alio-user \
+    honor_alio-userdebug \
+    honor_alio-eng
 ```
